@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Paula Cruz Abad — Intérprete & Traductora</title>
+  <meta name="description" content="Paula Cruz Abad — Intérprete y Traductora. Interpretación consecutiva y simultánea en español e inglés. Servicios y galería." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fdeff2;
+      --card:#fff;
+      --accent:#e0444d;
+      --accent-2:#ff6f8f;
+      --text:#3b2b2b;
+      --muted:#7b5a5a;
+      --radius:18px;
+      --container:1100px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--text); margin:0; padding:32px; display:flex; justify-content:center}
+    .wrap{width:100%; max-width:var(--container)}
+
+    header{display:flex;align-items:center;gap:18px}
+    .logo{display:flex;align-items:center;gap:12px}
+    .logo .straw{width:56px;height:56px;display:block}
+    .brand{font-family:'Dancing Script', cursive; font-size:28px; color:var(--accent)}
+    .subtitle{font-size:14px;color:var(--muted);letter-spacing:0.6px}
+
+    .card{background:var(--card);border-radius:var(--radius);padding:28px;margin-top:18px;box-shadow:0 10px 30px rgba(0,0,0,0.06)}
+
+    .hero{display:flex;align-items:center;gap:28px;padding:18px}
+    .hero-left{flex:1}
+    .hero h1{font-family:'Dancing Script';font-size:44px;margin:0;color:var(--accent)}
+    .hero p{margin:12px 0 0;color:var(--muted)}
+
+    .contact-pill{display:inline-block;padding:10px 14px;border-radius:999px;background:linear-gradient(90deg,var(--accent-2),#ff9db0);color:white;font-weight:600;margin-top:14px}
+
+    /* sections */
+    section{margin-top:22px}
+    h2{font-size:20px;margin:0 0 12px}
+    .cols{display:grid;grid-template-columns:1fr 360px;gap:24px}
+
+    .about p, .motivation p, .story p{color:var(--muted);line-height:1.55}
+
+    .services{display:flex;gap:12px;flex-wrap:wrap}
+    .service{background:linear-gradient(180deg,#fff,#fff);border-radius:12px;padding:12px;border:1px solid #ffe7ec;min-width:160px}
+    .service h4{margin:0;color:var(--accent)}
+    .langs{font-size:13px;color:var(--muted)}
+
+    /* gallery */
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .gallery-grid img{width:100%;height:150px;object-fit:cover;border-radius:12px;display:block}
+
+    /* back-layout box like Dana */
+    .back-layout{background:#fff;border-radius:12px;padding:18px;border:1px solid #ffdde4}
+    .back-top{display:flex;gap:14px;justify-content:center;align-items:center;margin-bottom:12px}
+    .back-top .label{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--accent);padding:8px 12px;border-right:1px solid #ffe3ea}
+    .info-lines{display:flex;flex-direction:column;gap:6px}
+    .info-lines .line{display:flex;gap:10px;align-items:center;color:var(--muted)}
+    .qr-row{display:flex;gap:12px;align-items:center;margin-top:12px}
+    .qr{width:86px;height:86px;border-radius:8px;background:#fff;border:2px dashed #ffdbe5;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--accent)}
+
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:900px){
+      .cols{grid-template-columns:1fr}
+      .gallery-grid{grid-template-columns:repeat(2,1fr)}
+      .hero{flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <!-- simple strawberry svg -->
+        <svg class="straw" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+          <g fill="none" fill-rule="evenodd">
+            <path d="M32 58c12-1 22-10 24-22 2-12-9-22-16-24-7-2-10 3-16 3s-8-5-16-3c-7 2-18 12-16 24 2 12 12 21 24 22z" fill="#ffdbe5"/>
+            <path d="M18 16c0 0 2-8 12-6 10 2 12 6 12 6" stroke="#e0444d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M34 40c3 0 4-4 6-6 2-2 6-2 6-6" stroke="#e0444d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </svg>
+        <div>
+          <div class="brand">Paula Cruz Abad</div>
+          <div class="subtitle">Intérprete · Traductora — Español · Inglés · </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="card">
+      <div class="hero">
+        <div class="hero-left">
+          <h1>Interpretación & Traducción con corazón</h1>
+          <p>Ofrezco servicios de interpretación consecutiva y simultánea para conferencias, eventos corporativos, sesiones médicas y proyectos creativos. Trabajo con precisión, ritmo y una sensibilidad cultural que facilita la comunicación real entre personas y equipos.</p>
+          <div class="contact-pill">Contacto: 5519485550 · paulacruz19.pc@gmail.com</div>
+        </div>
+        <div style="width:320px;text-align:center">
+          <img alt="tarjeta front" src="https://via.placeholder.com/320x200.png?text=Frente+tarjeta+Paula" style="width:100%;border-radius:12px;">
+        </div>
+      </div>
+
+      <section class="cols">
+        <div>
+          <h2>Guion del proyecto</h2>
+          <div class="about">
+            <p><strong>Resumen:</strong> Este proyecto profesional consiste en ofrecer servicios integrales de interpretación y traducción para clientes que necesitan comunicación clara y natural entre español e inglés. Mi enfoque combina precisión técnica con empatía cultural para garantizar que el mensaje se preserve en tono, intención y contexto.</p>
+            <p><strong>Objetivo:</strong> Crear un portafolio y presencia digital que facilite la contratación de mis servicios para eventos, conferencias, proyectos académicos y traducción de materiales especializados.</p>
+          </div>
+
+          <h2>Motivación</h2>
+          <div class="motivation">
+            <p>La motivación nace de mi pasión por los idiomas y por conectar personas. He visto cómo una interpretación cuidada puede transformar una reunión: lo que era confusión se convierte en colaboración. Quiero ofrecer esa tranquilidad profesional, especialmente en contextos donde la comunicación precisa salva tiempo, recursos y malentendidos.</p>
+          </div>
+
+          <h2>Mi historia</h2>
+          <div class="story">
+            <p>Soy Paula Cruz Abad, intérprete y traductora. Estudié traducción e interpretación y desde entonces he trabajado en proyectos académicos, conferencias y eventos. Además del trabajo profesional, disfruto adaptar mi estilo según la audiencia: técnico y claro para lo legal, cálido y cercano para lo médico o creativo.</p>
+          </div>
+
+          <h2>Servicios</h2>
+          <div class="services">
+            <div class="service"><h4>Interpretación simultánea</h4><div class="langs">Conferencias y webinars</div></div>
+            <div class="service"><h4>Interpretación consecutiva</h4><div class="langs">Reuniones, entrevistas, eventos</div></div>
+            <div class="service"><h4>Traducción especializada</h4><div class="langs">Documentos legales, médicos y técnicos</div></div>
+            <div class="service"><h4>Revisión y adaptación</h4><div class="langs">Localización y control de calidad</div></div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="back-layout">
+            <div class="back-top">
+              <div class="label">INTÉRPRETE</div>
+              <div class="label">TRADUCTORA</div>
+            </div>
+
+            <div style="text-align:center;margin-bottom:8px;font-weight:700;color:var(--accent)">Paula Cruz Abad</div>
+
+            <div class="info-lines">
+              <div class="line"><strong>Tel:</strong>&nbsp;5519485550</div>
+              <div class="line"><strong>Email:</strong>&nbsp;paulacruz19.pc@gmail.com</div>
+              <div class="line"><strong>Instagram:</strong>&nbsp;@pauuchis__444_</div>
+              <div class="line"><strong>Idiomas:</strong>&nbsp;Español · Inglés · </div>
+            </div>
+
+            <div class="qr-row">
+              <div class="qr">QR 1</div>
+              <div class="qr">QR 2</div>
+            </div>
+
+            <div style="text-align:center;margin-top:8px;font-size:12px;color:var(--muted)">Interpretación consecutiva y simultánea • Disponibilidad para eventos</div>
+          </div>
+
+          <div style="margin-top:12px;padding:12px;border-radius:10px;background:linear-gradient(180deg,#fff,#fff);border:1px solid #ffe7ec">
+            <div style="font-weight:700;color:var(--accent);margin-bottom:8px">Contrata mis servicios</div>
+            <div style="font-size:13px;color:var(--muted);line-height:1.4">Escríbeme por WhatsApp o email para cotizaciones y disponibilidad. Puedo enviar hoja de servicios y tarifas según evento.</div>
+          </div>
+        </aside>
+      </section>
+
+      <section>
+        <h2>Galería</h2>
+        <div class="gallery-grid">
+          <img src="https://via.placeholder.com/400x300.png?text=Evento+1" alt="evento1">
+          <img src="https://via.placeholder.com/400x300.png?text=Evento+2" alt="evento2">
+          <img src="https://via.placeholder.com/400x300.png?text=Evento+3" alt="evento3">
+          <img src="https://via.placeholder.com/400x300.png?text=Material+1" alt="mat1">
+          <img src="https://via.placeholder.com/400x300.png?text=Material+2" alt="mat2">
+          <img src="https://via.placeholder.com/400x300.png?text=Material+3" alt="mat3">
+        </div>
+        <p style="font-size:13px;color:var(--muted);margin-top:8px">.</p>
+      </section>
+
+      <section>
+        <h2>Contacto</h2>
+        <p style="color:var(--muted)">¿Listo para trabajar juntos? Escríbeme, estoy disponible para eventos y proyectos freelance.</p>
+        <form style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px">
+          <input placeholder="Tu nombre" style="padding:10px;border-radius:8px;border:1px solid #ffdfe6">
+          <input placeholder="Tu email" style="padding:10px;border-radius:8px;border:1px solid #ffdfe6">
+          <input placeholder="Asunto" style="grid-column:1 / -1;padding:10px;border-radius:8px;border:1px solid #ffdfe6">
+          <textarea placeholder="Mensaje" style="grid-column:1 / -1;padding:10px;border-radius:8px;border:1px solid #ffdfe6;height:120px"></textarea>
+          <button type="button" style="grid-column:1 / -1;padding:12px;border-radius:10px;border:0;background:linear-gradient(90deg,var(--accent),#ff6f8f);color:#fff;font-weight:700">Enviar mensaje</button>
+        </form>
+      </section>
+
+      <footer>
+        © <span id="year"></span> Paula Cruz Abad — Intérprete & Traductora
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
